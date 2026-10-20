@@ -1,0 +1,19 @@
+{
+  "name": "lab3-thanh-toan-hoc-phi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bank": "node src/bank.js",
+    "fee": "node src/fee-service.js",
+    "test:fixed": "node scripts/scenarios.js fixed",
+    "test:naive": "node scripts/scenarios.js naive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
